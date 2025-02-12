@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../assets/fonts/inter/static/Inter_18pt-Regular.ttf')
+    format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
