@@ -1,17 +1,17 @@
 import styled from 'styled-components';
 
 export const HomePageWrapper = styled.section`
+  display: flex;
   height: 100vh;
   width: 100%;
-  border: 1px solid red;
-  display: flex;
 `;
 
 export const SidebarContainer = styled.div`
   width: 20%;
+  top: 0;
+  left: 0;
 `;
 
-export const PageContent = styled.div`
+export const ContentContainer = styled.div`
   flex: 1;
-  border: 2px solid green;
 `;

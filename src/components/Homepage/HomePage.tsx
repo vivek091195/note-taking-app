@@ -1,6 +1,8 @@
 import React from 'react';
-import { HomePageWrapper, PageContent, SidebarContainer } from './HomePage.style.ts';
+import { ContentContainer, HomePageWrapper, SidebarContainer } from './HomePage.style.ts';
 import Sidebar from '../Navigation/Sidebar/Sidebar.tsx';
+import Divider from '../../widgets/Divider/Divider.tsx';
+import Index from '../Notes';
 
 const HomePage = () => {
   return (
@@ -8,7 +10,17 @@ const HomePage = () => {
       <SidebarContainer>
         <Sidebar />
       </SidebarContainer>
-      <PageContent></PageContent>
+      <Divider
+        orientation={'vertical'}
+        styleOverrides={{
+          position: 'absolute',
+          top: 0,
+          left: '20%',
+        }}
+      />
+      <ContentContainer>
+        <Index />
+      </ContentContainer>
     </HomePageWrapper>
   );
 };

@@ -7,13 +7,19 @@ export const SidebarWrapper = styled.div`
 `;
 
 export const TopItemsWrapper = styled.div`
-  margin-top: 32px;
+  margin: 32px 0 12px;
 `;
 
 export const SidebarItemWrapper = styled.div`
   display: flex;
-  margin-bottom: 16px;
   align-items: center;
+  padding: 8px;
+  position: relative;
+
+  &:hover {
+    background-color: #e0e4ea;
+    border-radius: 8px;
+  }
 `;
 
 export const SidebarIconWrapper = styled.div`

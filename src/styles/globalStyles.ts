@@ -11,7 +11,7 @@ const GlobalStyles = createGlobalStyle`
     }
     
     body {
-        font-family: Inter;
+        font-family: Inter, serif;
     }
 
     input,

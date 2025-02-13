@@ -9,7 +9,7 @@ import {
 import { ReactComponent as Logo } from '../../../assets/images/logo.svg';
 import { ReactComponent as HomeIcon } from '../../../assets/images/icon-home.svg';
 import { ReactComponent as ArchiveIcon } from '../../../assets/images/icon-archive.svg';
-import Divider from '../../Divider/Divider.tsx';
+import Divider from '../../../widgets/Divider/Divider.tsx';
 
 const SidebarItem: React.FC<{ icon: React.ReactNode; title: string }> = ({ icon, title }) => {
   return (
